@@ -1,0 +1,410 @@
+
+*{
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.nav {
+    padding-top: 22px;
+}
+
+.nav__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-img{
+    width: 126px;
+    height: 30px;
+    
+}
+header{
+    background-image:url(../img/back1.png);
+    height:582px ;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header-ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(255,255,255,0.9);
+    margin: 0px;
+    font-weight: 400;
+    padding-top: 13px;
+    font-family: 'Libre Franklin', sans-serif;
+    column-gap: 40px;
+}
+#menu__toggle {
+    opacity: 0;
+}
+.decor{
+    text-decoration: none;
+    color: white;
+}
+.header-main-text{
+    text-align: center;
+    margin-top: 150px;
+    color: #FFFFFF;
+}
+
+.button-heigth{
+    border-color: #FFFFFF;
+    background-color: transparent;
+    background: transparent;
+    color: rgba(255,255,255,0.8);
+width: 120px;
+height: 46px;
+  display: inline-block;
+  border-radius: 4px;
+  border-width:2px;
+  padding: 0;
+  cursor: pointer;
+  
+}
+.big-text{
+    line-height: 78px;
+    font-size: 71px;
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.bold-13{
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 60px;
+    Word-spacing: 5px;
+    Letter-spacing: 1px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Libre Franklin', sans-serif;
+    font-style: normal;
+font-size: 13px;
+font-style: normal;
+text-align: center;
+
+}
+.button-gren{
+    width: 160px;
+    height: 60px;
+    background-color: #5AB963;
+    color: rgb(255, 255, 255 );
+    border-radius: 6px;
+    border-color: #5AB963;
+    padding: 0;
+    border: 0;
+    font-family: 'Libre Franklin', sans-serif;
+    cursor: pointer;
+}
+.main1-div{
+    margin-top: 120px;
+    margin-left: 135px;
+    margin-right:135px ;
+}
+.main1-text{
+    font-size: 24px;
+    max-width: 490px;
+    max-height: 144px;
+    line-height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 720px;
+    min-width: 350px;
+    min-height: 100px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.main2-text{
+    color: rgba(20, 18, 18, 0.5);
+    font-family: 'Libre Franklin', sans-serif;
+}
+.main3-text{
+    font-size: 24px;
+    max-width: 685px;
+    max-height: 144px;
+    line-height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 350px;
+    min-height: 100px;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-top: 115px;
+    text-align: center;
+}
+.main1-divs3{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    justify-content: center;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.main1-div3{
+    max-height: 330px;
+    max-width: 240px;
+    border: 1px solid  rgba(102, 102, 102, 0.1);
+    padding-left: 5%;
+    padding-top: 6%;
+    padding-right: 8%;
+    padding-bottom: 10%;   
+    margin-right: 20px;
+}
+.small{
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Libre Franklin', sans-serif;
+    color:#5AB963;
+    text-align: center;
+        margin-bottom: 139px;
+        margin-top: 2px;
+}
+.divs3-text{
+    margin-top: 25px;
+margin-bottom: 13px;
+}
+.divs3-podtext{
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    max-width:  272px;
+max-height:  72px;
+min-width:100px ;
+min-height: 50px;
+color: rgba(20, 18, 18, 0.5);
+}
+.eat{
+    background-image: url(../img/eat.png);
+   height: 720px;
+   max-width: 1380px;
+   margin-right:auto ;
+   margin-left: auto;
+   margin-top: 120px;
+}
+
+.list{
+    background-color:  rgba(224, 224, 224, 0.5);
+    max-width: 1170px;
+    height: 1px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 120px;
+}
+.list2{
+    background-color:  rgba(224, 224, 224, 0.5);
+   max-width: 1170px;
+    height: 1px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 150px;
+margin-top: 120px;
+}
+.party{
+    color: #5AB963;
+}
+.party-get{
+align-items: center;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+max-width: 1170px;
+justify-content: space-around;
+margin-bottom: 150px;
+
+}
+.party-i{
+    max-width: 483px;
+}
+.center-menu1{
+margin-left: 135px;
+margin-right: 363px;
+display: flex;
+align-items: center;
+}
+.center-podmenu1-1{
+background-image: url(../img/wilka.png);
+height: 330px;
+min-width: 470px;
+}
+.center-podmenu1-2{
+padding-bottom: 77px;
+padding-left: 100px;
+}
+.center-div-podtext{
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    max-width:  362px;
+height:  120px;
+color: rgba(20, 18, 18, 0.5);
+}
+.center-main-text{
+    font-size: 24px;
+    max-width:  362px;
+    height:  108px;
+    line-height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 350px;
+    min-height: 100px;
+    margin-bottom: 50px;
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+.center-menu2{
+    margin-left: 363px;
+    margin-right: 135px;
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+}
+.center-podmenu2-1{
+    padding-bottom: 77px;
+    padding-right: 100px;
+}
+.center-podmenu2-2{
+    background-image: url(../img/wilka2.png);
+    height: 330px;
+   min-width: 470px;
+}
+.center-main-menu{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1520px;
+}
+.wanna{
+    font-family: 'Libre Franklin', sans-serif;
+    margin-top: 110px;
+    text-align: center;
+    font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+}
+.See{
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+font-size: 11px;
+line-height: 18px;
+color: #5AB963;
+text-transform: uppercase;
+text-align: center;
+margin-top: 12px;
+}
+.hi{
+margin-bottom: 2px;
+}
+.pod-party{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+}
+.pod-party2{
+color: rgba(20, 18, 18, 0.5);
+font-weight: 100;
+}
+footer{
+    background-image: url(../img/black.png);
+    max-width: 1440px;
+    height: 399px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-left{
+padding-right: 350px;
+max-width: 235px;
+}
+.footer-right{
+    display: flex;
+}
+.footer-img{
+    width: 126px;
+    height: 30px;
+}
+.main-footer{
+    padding-bottom: 150px;
+    padding-top: 120px;
+    padding-left: 135px;
+    padding-right: 135px;
+    display: flex;
+}
+.footer-light-text{
+    font-family: 'Libre Franklin', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+color: rgba(219, 212, 212, 0.5);
+padding-top: 15px;
+}
+.text-right-footer{
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+font-family: 'Libre Franklin', sans-serif;
+color: #FFFFFF;
+padding-bottom: 25px;
+padding-right: 62px;
+cursor: pointer;
+}
+.text-right-footer1{
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+font-family: 'Libre Franklin', sans-serif;
+color: #FFFFFF;
+padding-bottom: 25px;
+padding-right: 50px;
+cursor: pointer;
+}
+.img-group{
+    max-width: 24px;
+    padding-right: 21px;
+    cursor: pointer;
+}
+.imgs-footer{
+    max-width: 147px;
+}
+.footer-text-img{
+    min-width: 182px;
+}
+.link a {
+    text-decoration:none; /*Убираем стандартное подчёркивание ссылки если оно ещё не убрано*/
+    display: inline-block; /*делаем чтобы наша ссылка из строчного элемента превратилась в строчно-блочный*/
+    line-height: 1; /*Задаём высоту строки (можно в пикселях)*/
+    color:#ffffff;/*Задаём цвет ссылки*/
+
+}
+.link a:after {
+    display: block; /*превращаем его в блочный элемент*/
+    content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+    height: 3px; /*задаём высоту линии*/
+    width: 0%; /*задаём начальную ширину элемента (линии)*/
+    background-color: #6d6b6b; /*цвет фона элемента*/
+    transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+}
+.link a:hover:after,
+.link a:focus:after {
+width: 100%;
+}
+.link a:hover{
+    color:#cf7b7b;
+}
+.link button:hover{
+    color:#e62020;
+    transition-duration: 2s
+}
+.button-gren:hover{
+    background-color: #0a6d0f;
+    transition-duration: 2s
+}
